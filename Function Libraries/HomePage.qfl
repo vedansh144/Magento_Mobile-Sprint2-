@@ -1,0 +1,3 @@
+﻿Function Home()
+	Browser("name:=LMagento Mobile Shop Demo .*").Page("title:=Magento Mobile Shop Demo.*").Image("xpath:=//DIV[normalize-space()='Toggle navigation']/A[1]/SPAN[1]/IMG[2]").Click
+End Function

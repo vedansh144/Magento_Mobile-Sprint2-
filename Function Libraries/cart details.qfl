@@ -1,0 +1,51 @@
+﻿Public Function CartDetails()
+a = "name:=Checkout - Magento Mobile Shop"
+b = "title:=Checkout - Magento Mobile Shop"
+c = "name:=Checkout.*"
+d = "title:=Checkout.*"
+DataTable.ImportSheet "C:\Users\vedan\Desktop\magento\magento project\Test Data\Main.xls", "offer", "Global"
+'---------------------------------Biling Details--------------------
+Browser("name:=Checkout - Magento Mobile Shop").Page("title:=Checkout - Magento Mobile Shop").WebEdit("name:=billing_first_name").Set DataTable("fn", dtGlobalSheet)
+Browser("name:=Checkout - Magento Mobile Shop").Page("title:=Checkout - Magento Mobile Shop").WebEdit("name:=billing_last_name").Set DataTable("ln", dtGlobalSheet)
+Browser("name:=Checkout - Magento Mobile Shop").Page("title:=Checkout - Magento Mobile Shop").WebEdit("name:=billing_email").Set DataTable("id", dtGlobalSheet)
+Browser("name:=Checkout - Magento Mobile Shop").Page("title:=Checkout - Magento Mobile Shop").WebEdit("name:=billing_password").Set DataTable("pass", dtGlobalSheet)
+
+'---CheckPoint
+Browser("name:=Checkout - Magento Mobile Shop").Page("title:=Checkout - Magento Mobile Shop").WebCheckBox("name:=wps_ext_cst_label").WaitProperty "visible", true, 2000
+Browser("name:=Checkout - Magento Mobile Shop").Page("title:=Checkout - Magento Mobile Shop").WebCheckBox("name:=wps_ext_cst_label").Click
+
+'--------------------------------->Credit Card Details<--------------------
+'-----CARDHOLDER
+Browser(c).Page(d).WebEdit("name:=nc").WaitProperty "visible", true, 3000
+Browser(c).Page(d).WebEdit("name:=nc").Set DataTable("ahn", dtGlobalSheet)
+
+
+'Credit Card No
+Browser(c).Page(d).WebEdit("xpath:=//INPUT[@id='usaepay_cc_number']").WaitProperty "visible", true, 2000
+Browser(c).Page(d).WebEdit("xpath:=//INPUT[@id='usaepay_cc_number']").Set DataTable("cn", dtGlobalSheet)
+
+'Mnth
+Browser(c).Page(d).WebList("xpath:=//SELECT[@id='usaepay_expiration']").WaitProperty "visible", true, 2000
+Browser(c).Page(d).WebList("xpath:=//SELECT[@id='usaepay_expiration']").Select DataTable("mnth", dtGlobalSheet)
+
+'Year
+Browser(c).Page(d).WebList("xpath:=//SELECT[@id='usaepay_expiration_yr']").WaitProperty "visible", true, 2000
+Browser(c).Page(d).WebList("xpath:=//SELECT[@id='usaepay_expiration_yr']").Select DataTable("year", dtGlobalSheet)
+
+'CVV
+Browser(c).Page(d).WebEdit("xpath:=//INPUT[@id='usaepay_cc_cid']").WaitProperty "visible", true, 2000
+Browser(c).Page(d).WebEdit("xpath:=//INPUT[@id='usaepay_cc_cid']").Set DataTable("cvv", dtGlobalSheet)
+
+'---CheckPoint
+Browser(c).Page(d).WebCheckBox("name:=terms").WaitProperty "visible", true, 2000
+Browser(c).Page(d).WebCheckBox("name:=terms").Click
+
+'Button
+Browser(c).Page(d).WebButton("name:=Proceed to PayPal").Click
+
+Browser("name:=PayPal Checkout.*").close
+
+URL="https://www.magentomobileshop.com/"
+SystemUtil.Run "chrome",URL
+
+End Function
