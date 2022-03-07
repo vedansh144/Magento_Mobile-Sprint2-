@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome",1</Name>
+    <StartTime>2022-03-04 00:33:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>c294ce28005b44e2b40e084e9fdbaef9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Link ].Click</Name>
+    <Description />
+    <StartTime>2022-03-04 00:33:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Free Magento Mobile App Builder - Magento 2 iOS & Android App ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Link ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>4a0d736cfb884fb3a324933b38784487</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.&lt;BR/&gt;Line (32): &amp;quot;info=Browser(&amp;quot;name:=Create Free Ecommerce Magento Mobile App.*&amp;quot;).Page(&amp;quot;title:=Create Free Ecommerce Magento Mobile App.*&amp;quot;).Frame(&amp;quot;Class Name:=Frame&amp;quot;).Link(&amp;quot;url:=https://www.youtube.com/watch?v=e9mvO4LwKZk&amp;quot;).GetAllROProperties(&amp;quot;url&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2022-03-04 00:34:26</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[info=Browser("name:=Create Free Ecommerce Magento Mobile App.*").Page("title:=Create Free Ecommerce Magento Mobile App.*").Frame("Class Name:=Frame").Link("url:=https://www.youtube.com/watch?v=e9mvO4LwKZk").GetAllROProperties("url")]]></Scripts>
+          <LineNo><![CDATA[32]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Create Free Ecommerce Magento Mobile App - iPhone and Android ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[General run error.<BR/>Line (32): &quot;info=Browser(&quot;name:=Create Free Ecommerce Magento Mobile App.*&quot;).Page(&quot;title:=Create Free Ecommerce Magento Mobile App.*&quot;).Frame(&quot;Class Name:=Frame&quot;).Link(&quot;url:=https://www.youtube.com/watch?v=e9mvO4LwKZk&quot;).GetAllROProperties(&quot;url&quot;)&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>656259665f8548a1b8ee009eea3dd5d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ec4c0fe3-b6dc-43a4-bdd7-ef53e356c7a4.jpeg" highlight="0,0,1920,1040" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-03-04 00:34:52</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>9ab687e078034b6e86b85b46bd4116bd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-03-04 00:33:50</StartTime>
+    <Duration>62</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>0350603483f943c4a0e281c797149c09</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-03-04 00:33:50</StartTime>
+    <Duration>62</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>060f484bc6554f45b7688b077bb80ee0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HowItWorks</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-03-04 00:33:48</StartTime>
+    <Duration>64</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>39cb08690ff441b3bb6735e32d655502</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (India)</Locale>
+      <User>Dheerendra Singh</User>
+      <CpuInfo>AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  </CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>6083</TotalMemory>
+      <HostName>LAPTOP-F2KL8OHK</HostName>
+      <OSInfo>Windows 10 21H1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2022-03-04 00:33:48</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
