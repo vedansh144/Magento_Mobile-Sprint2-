@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_2021_GA
+Project("") = "Login", "Login\Login\Test.tsp", "8624BA0F-E4C5-4C3E-B473-55BA081DD532"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\vedan\Desktop\magento\magento project\Actions\Login\Login\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "AddOns", "Add Ons\AddOns\Test.tsp", "1B51F4FD-39E2-424C-BF85-93133910F6EE"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\vedan\Desktop\magento\magento project\Actions\Add Ons\AddOns\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "Offer", "Offer\Offer\Test.tsp", "4F6529FC-3231-4850-9FB7-8AD32F420147"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\vedan\Desktop\magento\magento project\Actions\Offer\Offer\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "Features", "Features\Features\Test.tsp", "F80F16FE-B1AF-4B9F-9607-D0C934CB18FB"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\vedan\Desktop\magento\magento project\Actions\Features\Features\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "Feature Addons", "Feature Addons\Feature Addons\Test.tsp", "FA8FCF61-7141-4B9E-91C1-211863906A92"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\vedan\Desktop\magento\magento project\Actions\Feature Addons\Feature Addons\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		8624BA0F-E4C5-4C3E-B473-55BA081DD532.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8624BA0F-E4C5-4C3E-B473-55BA081DD532.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8624BA0F-E4C5-4C3E-B473-55BA081DD532.Release|Any CPU.Build.0 = Release|Any CPU
+		8624BA0F-E4C5-4C3E-B473-55BA081DD532.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1B51F4FD-39E2-424C-BF85-93133910F6EE.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1B51F4FD-39E2-424C-BF85-93133910F6EE.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1B51F4FD-39E2-424C-BF85-93133910F6EE.Release|Any CPU.Build.0 = Release|Any CPU
+		1B51F4FD-39E2-424C-BF85-93133910F6EE.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4F6529FC-3231-4850-9FB7-8AD32F420147.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4F6529FC-3231-4850-9FB7-8AD32F420147.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4F6529FC-3231-4850-9FB7-8AD32F420147.Release|Any CPU.Build.0 = Release|Any CPU
+		4F6529FC-3231-4850-9FB7-8AD32F420147.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F80F16FE-B1AF-4B9F-9607-D0C934CB18FB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F80F16FE-B1AF-4B9F-9607-D0C934CB18FB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F80F16FE-B1AF-4B9F-9607-D0C934CB18FB.Release|Any CPU.Build.0 = Release|Any CPU
+		F80F16FE-B1AF-4B9F-9607-D0C934CB18FB.Release|Any CPU.ActiveCfg = Release|Any CPU
+		FA8FCF61-7141-4B9E-91C1-211863906A92.Debug|Any CPU.Build.0 = Debug|Any CPU
+		FA8FCF61-7141-4B9E-91C1-211863906A92.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		FA8FCF61-7141-4B9E-91C1-211863906A92.Release|Any CPU.Build.0 = Release|Any CPU
+		FA8FCF61-7141-4B9E-91C1-211863906A92.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
